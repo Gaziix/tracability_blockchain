@@ -223,15 +223,15 @@ Cela va démarrer l'application sur le port défini (par défaut 3000). Vous pou
 - `./views` : Contient les fichiers EJS pour le rendu dynamique des pages.
 - `./public` : Contient les fichiers statiques (CSS, JS, images).
 
-Example of the website : 
-# Page de connexion
+# Example of the website : 
+### Page de connexion
 ![Image1](https://github.com/user-attachments/assets/0ddbc08d-7762-4e85-9605-2096e7280b46)
 
-# Listing des acteurs
+### Listing des acteurs
 ![Image2](https://github.com/user-attachments/assets/0699c8c6-82bc-422e-8304-d873e4dbc0f9)
 
-# Effectuer une transaction
+### Effectuer une transaction
 ![Image3](https://github.com/user-attachments/assets/981cbb07-e270-4496-bc18-423a4bfacd11)
 
-# Affichage des transactions
+### Affichage des transactions
 ![Image4](https://github.com/user-attachments/assets/3bf4181f-b33c-4db9-a37f-89fcd2b442ba)
