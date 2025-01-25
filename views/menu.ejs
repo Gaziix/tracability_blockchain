@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('partials/header') %> <!-- Inclure le header -->
+<body>
+    <%- include('partials/navbar') %>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Welcome, <%= user.last_name %> <%= user.first_name %>! <%= user.company_type %> </h2>
+                        <p>Select an option from the menu above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

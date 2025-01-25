@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('partials/header') %> 
+<body>
+    <%- include('partials/navbar') %>
+    
+    <div class="container">
+        <h2 class="text-center mt-5 mb-4"><%= pageTitle %></h2>
+        <!-- Tableau des transactions -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">ID Transaction</th>
+                        <th scope="col">Timestamp</th>
+                        <th scope="col">Vendeur</th>
+                        <th scope="col">Acheteur</th>
+                        <th scope="col">Produit ID</th>
+                        <th scope="col">Numéro de série</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% transactions.forEach(transaction => { %>
+                        <tr>
+                            <td><%= transaction.id %></td>
+                            <td><%= new Date(transaction.timestamp).toLocaleString('fr-FR', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                                hour: 'numeric',
+                                minute: 'numeric',
+                                second: 'numeric'
+                            }) %></td>
+                            <td><%= transaction.source_id %></td>
+                            <td><%= transaction.destination_id %></td>
+                            <td><%= transaction.productName %></td>
+                            <td><%= transaction.product.serial_number %></td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

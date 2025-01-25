@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('../partials/header') %>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            background-image: url('/images/background_login.jpg'); 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+            padding: 30px;
+            border-radius: 15px; /* Bordures arrondies */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #343a40; /* Couleur gris foncé */
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.05);
+            font-size: 1rem;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+<body>
+    <div class="login-container">
+        <h2><i class="fas fa-lock"></i> Connexion</h2>
+        <form action="/auth/login" method="POST">
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('partials/header') %> 
+<body>
+    <%- include('partials/navbar') %>
+    
+    <div class="container">
+        <h2 class="text-center mt-5 mb-4">Faire une transaction</h2>
+        <form id="transactionForm" action="/new-transaction" method="POST" class="p-4 rounded shadow-sm bg-white">
+            <!-- Champ pour le produit -->
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="productId">Produit</label>
+                    <select class="form-control" id="productId" name="productId" required>
+                        <option value="" disabled selected>Choisissez un produit</option>
+                        <% products.forEach(product => { %>
+                            <option value="<%= product.id %>"><%= product.product_name %></option>
+                        <% }) %>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="serialNumber">Numéro de série du produit</label>
+                    <input type="text" class="form-control" id="serialNumber" name="serialNumber" required>
+                </div>
+            </div>
+        
+            <!-- Champ pour l'ID de l'acheteur -->
+            <div class="form-group">
+                <label for="buyerId">ID de l'acheteur (Entreprise)</label>
+                <select class="form-control" id="buyerId" name="buyerId" required>
+                    <option value="" disabled selected>Choisissez une entreprise</option>
+                    <% companies.forEach(company => { %>
+                        <option value="<%= company.company_name %>"><%= company.company_name %></option>
+                    <% }) %>
+                </select>
+            </div>
+        
+            <!-- Bouton de soumission -->
+            <button type="submit" class="btn btn-primary btn-block mt-3">Soumettre</button>
+        </form>        
+    </div>
+</body>
+</html>

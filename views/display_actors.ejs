@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('partials/header') %> 
+<body>
+    <%- include('partials/navbar') %>
+    <div class="container">
+        <h2 class="text-center"><%= pageTitle %></h2>
+        
+        <!-- Affichage des acteurs sous forme de cartes -->
+        <div class="row">
+            <% for (const [actorName, actorData] of Object.entries(actors)) { %>
+                <div class="col-md-4">
+                    <div class="actor-card">
+                        <h5><%= actorName %></h5>
+                        <div class="info">
+                            <strong>Coffre :</strong> <%= actorData.chest %>
+                        </div>
+                        <div class="info">
+                            <strong>Réputation :</strong> <%= actorData.reputation %>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
