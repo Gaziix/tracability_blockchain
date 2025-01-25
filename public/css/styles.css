@@ -1,0 +1,340 @@
+/* General Styles */
+body {
+    background: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Background image for the login page */
+body {
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    background-image: url('/images/background_login.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a i {
+    margin-right: 8px;
+}
+
+.nav-item a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Page Specific Styles */
+h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+/* Form styling for "Faire une transaction" page */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Filter Section Styles */
+.filter-container {
+    margin-top: 20px;
+}
+
+.filter-container input {
+    margin-bottom: 10px;
+}
+
+/* Actor Page Styles */
+.actor-card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.actor-card:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.actor-card h5 {
+    color: #007bff;
+}
+
+.actor-card .info {
+    margin-bottom: 10px;
+}
+
+.actor-card .info strong {
+    color: #343a40;
+}
+
+/* Transaction Table Styles */
+.table {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+/* Responsive Design for Table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Responsive Design for Filters */
+@media (max-width: 768px) {
+    .filter-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter-container .col-md-2 {
+        margin-bottom: 10px;
+    }
+}
+
+/* Menu Page */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card-title {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.list-group-item {
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+}
+
+/* Add spacing above container in menu page */
+.container {
+    margin-top: 80px;
+}
+
+/* Style for Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    color: #0056b3;
+}
+
+.pagination .active a {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Style for Buttons */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Adjustments for Actor Cards */
+.actor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.actor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling for "Faire une transaction" page */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Filter Section Styles */
+.filter-container {
+    margin-top: 20px;
+}
+
+.filter-container input {
+    margin-bottom: 10px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    color: #0056b3;
+}
+
+.pagination .active a {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
