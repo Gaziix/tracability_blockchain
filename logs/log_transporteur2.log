@@ -1,0 +1,130 @@
+2025-01-08 18:28:26.698898 Server is running in the background...
+2025-01-08 18:28:26.700626 Node (127.0.0.1, 4001) added from init_response.
+2025-01-08 18:28:26.700694 Node (127.0.0.1, 4000) added from init_response.
+2025-01-08 18:28:26.702960 Blockchain successfully loaded from ('127.0.0.1', 4002)
+2025-01-08 18:28:26.703015 Blockchain saved.
+2025-01-08 18:28:26.703320 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:28:26.703583 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:35:20.197918 Server is running in the background...
+2025-01-08 18:35:20.200459 Node (127.0.0.1, 4001) added from init_response.
+2025-01-08 18:35:20.200525 Node (127.0.0.1, 4000) added from init_response.
+2025-01-08 18:35:20.205801 Blockchain successfully loaded from ('127.0.0.1', 4002)
+2025-01-08 18:35:20.205885 Blockchain saved.
+2025-01-08 18:35:20.206289 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:35:20.206559 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:35:42.245922 Received from ('127.0.0.1', 34804): new_transaction
+2025-01-08 18:35:42.247133 new transaction added to the pool
+2025-01-08 18:38:39.836460 Server is running in the background...
+2025-01-08 18:38:39.836745 Failed to connect to 127.0.0.1 4002.
+2025-01-08 18:38:39.836882 Failed to connect to 127.0.0.1 4002.
+2025-01-08 18:38:39.836960 No response received from ('127.0.0.1', 4002)
+2025-01-08 18:38:39.837026 Could not get the blockchain
+2025-01-08 18:39:04.137328 Server is running in the background...
+2025-01-08 18:39:04.138987 Node (127.0.0.1, 4001) added from init_response.
+2025-01-08 18:39:04.139089 Node (127.0.0.1, 4000) added from init_response.
+2025-01-08 18:39:04.142265 Blockchain successfully loaded from ('127.0.0.1', 4002)
+2025-01-08 18:39:04.142327 Blockchain saved.
+2025-01-08 18:39:04.142671 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:39:04.143349 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:39:27.483974 Received from ('127.0.0.1', 60068): new_transaction
+2025-01-08 18:39:27.485118 new transaction added to the pool
+2025-01-08 18:44:43.928296 Server is running in the background...
+2025-01-08 18:44:43.930483 Node (127.0.0.1, 4002) added from init_response.
+2025-01-08 18:44:43.932319 Blockchain successfully loaded from ('127.0.0.1', 4000)
+2025-01-08 18:44:43.932371 Blockchain saved.
+2025-01-08 18:44:43.932929 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:44:43.932677 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:44:53.580802 Received from ('127.0.0.1', 33562): new_transaction
+2025-01-08 18:44:53.581832 new transaction added to the pool
+2025-01-08 18:44:54.082842 validator for the current block Laboratoire1
+2025-01-08 18:44:54.089201 Received from ('127.0.0.1', 33568): new_block
+2025-01-08 18:44:54.091385 New block 2 added to the blockchain.
+2025-01-08 18:44:54.093682 Starting pool cleaning process.
+2025-01-08 18:44:54.093851 Pool before cleaning: 1 transactions
+2025-01-08 18:44:54.093894 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:44:54.094002 Blockchain saved.
+2025-01-08 18:45:27.495168 Transacion succesfully sent to ('127.0.0.1', 4000)
+2025-01-08 18:45:27.496596 Transacion succesfully sent to ('127.0.0.1', 4002)
+2025-01-08 18:45:27.496669 new transaction Transporteur2=>Pharmacie1 [32,1234] added to the pool
+2025-01-08 18:45:27.996800 validator for the current block Transporteur2
+2025-01-08 18:45:28.008923 Starting pool cleaning process.
+2025-01-08 18:45:28.009081 Pool before cleaning: 1 transactions
+2025-01-08 18:45:28.009110 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:45:28.009129 Block 3 successfully broadcasted and added to the local blockchain.
+2025-01-08 18:45:28.009154 Blockchain saved.
+2025-01-08 18:46:16.423601 Received from ('127.0.0.1', 39936): init
+2025-01-08 18:46:16.423770 New node [127.0.0.1,4001] added
+2025-01-08 18:46:16.423922 new actor added (<Certificate(subject=<Name(C=FR,ST=France,L=Vannes,O=ENSIBS,OU=Projet Blockchain,CN=Pharmacie1)>, ...)>, 1000, 100)
+2025-01-08 18:46:16.423994 Blockchain saved.
+2025-01-08 18:47:35.785702 Server is running in the background...
+2025-01-08 18:47:35.787272 Node (127.0.0.1, 4001) added from init_response.
+2025-01-08 18:47:35.787345 Node (127.0.0.1, 4002) added from init_response.
+2025-01-08 18:47:35.790218 Blockchain successfully loaded from ('127.0.0.1', 4000)
+2025-01-08 18:47:35.790284 Blockchain saved.
+2025-01-08 18:47:35.790565 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:47:35.790823 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:48:01.001055 Received from ('127.0.0.1', 45850): new_transaction
+2025-01-08 18:48:01.001992 new transaction added to the pool
+2025-01-08 18:48:01.502396 validator for the current block Pharmacie1
+2025-01-08 18:48:01.515283 Received from ('127.0.0.1', 45854): new_block
+2025-01-08 18:48:01.518062 New block 1 added to the blockchain.
+2025-01-08 18:48:01.520401 Starting pool cleaning process.
+2025-01-08 18:48:01.520582 Pool before cleaning: 1 transactions
+2025-01-08 18:48:01.520636 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:48:01.520713 Blockchain saved.
+2025-01-08 18:48:15.678741 Received from ('127.0.0.1', 33926): new_transaction
+2025-01-08 18:48:15.679928 new transaction added to the pool
+2025-01-08 18:48:16.181084 validator for the current block Laboratoire1
+2025-01-08 18:48:16.187858 Received from ('127.0.0.1', 33934): new_block
+2025-01-08 18:48:16.191032 New block 2 added to the blockchain.
+2025-01-08 18:48:16.194086 Starting pool cleaning process.
+2025-01-08 18:48:16.194542 Pool before cleaning: 1 transactions
+2025-01-08 18:48:16.194927 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:48:16.195139 Blockchain saved.
+2025-01-08 18:48:29.545631 Transacion succesfully sent to ('127.0.0.1', 4000)
+2025-01-08 18:48:29.547112 Transacion succesfully sent to ('127.0.0.1', 4001)
+2025-01-08 18:48:29.548459 Transacion succesfully sent to ('127.0.0.1', 4002)
+2025-01-08 18:48:29.548533 new transaction Transporteur2=>Pharmacie1 [32,1234] added to the pool
+2025-01-08 18:48:30.048650 validator for the current block Laboratoire1
+2025-01-08 18:48:30.056431 Received from ('127.0.0.1', 45014): new_block
+2025-01-08 18:48:30.058279 New block 3 added to the blockchain.
+2025-01-08 18:48:30.060052 Starting pool cleaning process.
+2025-01-08 18:48:30.060186 Pool before cleaning: 1 transactions
+2025-01-08 18:48:30.060225 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:48:30.060270 Blockchain saved.
+2025-01-08 18:52:41.185340 Server is running in the background...
+2025-01-08 18:52:41.186391 Node (127.0.0.1, 4001) added from init_response.
+2025-01-08 18:52:41.186451 Node (127.0.0.1, 4002) added from init_response.
+2025-01-08 18:52:41.189716 Blockchain successfully loaded from ('127.0.0.1', 4000)
+2025-01-08 18:52:41.189788 Blockchain saved.
+2025-01-08 18:52:41.190056 Web Server Server started. Listening on 0.0.0.0:8083
+2025-01-08 18:52:41.190277 Blockchain Server started. Listening on 0.0.0.0:4003
+2025-01-08 18:53:16.562405 Received from ('127.0.0.1', 58958): new_transaction
+2025-01-08 18:53:16.563547 new transaction added to the pool
+2025-01-08 18:53:17.063997 validator for the current block Laboratoire1
+2025-01-08 18:53:17.074457 Received from ('127.0.0.1', 58968): new_block
+2025-01-08 18:53:17.075902 New block 1 added to the blockchain.
+2025-01-08 18:53:17.077053 Starting pool cleaning process.
+2025-01-08 18:53:17.077124 Pool before cleaning: 1 transactions
+2025-01-08 18:53:17.077158 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:53:17.077201 Blockchain saved.
+2025-01-08 18:53:35.500889 Received from ('127.0.0.1', 37950): new_transaction
+2025-01-08 18:53:35.502710 new transaction added to the pool
+2025-01-08 18:53:36.003435 validator for the current block Transporteur1
+2025-01-08 18:53:36.017201 Received from ('127.0.0.1', 37956): new_block
+2025-01-08 18:53:36.019526 New block 2 added to the blockchain.
+2025-01-08 18:53:36.021940 Starting pool cleaning process.
+2025-01-08 18:53:36.022170 Pool before cleaning: 1 transactions
+2025-01-08 18:53:36.022246 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:53:36.022340 Blockchain saved.
+2025-01-08 18:53:55.834742 Transacion succesfully sent to ('127.0.0.1', 4000)
+2025-01-08 18:53:55.836662 Transacion succesfully sent to ('127.0.0.1', 4001)
+2025-01-08 18:53:55.838922 Transacion succesfully sent to ('127.0.0.1', 4002)
+2025-01-08 18:53:55.838981 new transaction Transporteur2=>Pharmacie1 [33,1234] added to the pool
+2025-01-08 18:53:56.339322 validator for the current block Laboratoire1
+2025-01-08 18:53:56.348105 Received from ('127.0.0.1', 49290): new_block
+2025-01-08 18:53:56.350465 New block 3 added to the blockchain.
+2025-01-08 18:53:56.352039 Starting pool cleaning process.
+2025-01-08 18:53:56.352287 Pool before cleaning: 1 transactions
+2025-01-08 18:53:56.352396 Pool cleaned. 1 transactions removed. Remaining transactions: 0.
+2025-01-08 18:53:56.352549 Blockchain saved.
